@@ -6,10 +6,10 @@ from functools import wraps
 from jose import jwt
 
 
-AUTH0_DOMAIN = os.getenv('AUTH0_DOMAIN')
-ALGORITHMS = os.getenv('ALGORITHMS')
-API_AUDIENCE = os.getenv('API_AUDIENCE')
-
+AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']
+ALGORITHMS = os.environ['ALGORITHMS']
+API_AUDIENCE = os.environ['API_AUDIENCE']
+print(AUTH0_DOMAIN, ALGORITHMS, API_AUDIENCE)
 # print(AUTH0_DOMAIN, ALGORITHMS, API_AUDIENCE)
 
 # AUTH0_DOMAIN = 'dxpr.auth0.com'
