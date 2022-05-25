@@ -38,7 +38,7 @@ py==1.8.1
 pyasn1==0.4.8
 pycparser==2.20
 pycryptodome==3.9.7
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pylint-flask==0.6
 pylint-plugin-utils==0.6
